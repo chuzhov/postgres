@@ -35,11 +35,6 @@ getAllContacts()
     console.error("Error:", error);
   });
 
-console.log(
-  "Connection string is: ",
-  process.env.DB_CONNECTION_STRING
-);
-
 // Create the "contacts" table if it doesn't exist
 // pool.query(
 //   `CREATE TABLE IF NOT EXISTS contacts (
